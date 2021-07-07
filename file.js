@@ -14,5 +14,5 @@ function fizzBuzz() {
 }
 
 function isTrue(value) {
-	return (value === true ? true : false);
+	return value === true;
 }
