@@ -1,6 +1,6 @@
 // FizzBuzz Solution
-function fizzBuzz() {
-	for (let i = 0; i < 100; i++) {
+function fizzBuzz(num = 100) {
+	for (let i = 0; i < num; i++) {
 		if (i % (3 * 5) == 0) {
 			console.log("FizzBuzz");
 		} else if (i % 3 == 0) {
